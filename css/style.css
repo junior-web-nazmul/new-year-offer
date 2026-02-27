@@ -1,0 +1,307 @@
+
+
+body{
+    max-width: 1500px;
+    margin: 0 ;
+    /* margin: 50px 130px; */
+}
+.banner{
+    margin: 50px 130px;
+}
+.banner-container{
+    width: 100%;
+    height: 600px;
+    border-radius: 10px;
+    background-image:linear-gradient(to bottom,rgba(0,0,0,0.6),rgba(0,0,0,0)), url(../images/Banner\ Image.png);
+    background-repeat: no-repeat;  
+}
+.banner-containt{
+    text-align: center;
+    justify-items: center;
+   padding-top: 120px;
+}
+.banner-containt-title{
+    font-size: 32px;
+    color: white;
+}
+.banner-containt-description{
+    font-size: 72px;
+    font-weight: 900;
+    color: white;
+}
+
+
+/* offers....................... */
+.offers{
+    margin: 50px 130px;
+    text-align: center;
+}
+.offers img{
+    width: 800px;height: 500px;
+}
+.offers h4{
+    font-size: 88px;
+    font-weight: bold;
+    color: #FF0000;
+    line-height: 0px;
+}
+.offers-subtitle{
+    font-size: 24px;
+    font-weight: 500;
+    color: #FF0000;
+    line-height: 0px;
+}
+.offers-catagorise{
+    font-size: 48px;
+    font-weight: 700;
+    color: #070211;
+    line-height: 0px;
+}
+
+/* welcome-party.............. */
+.welcome-party{
+    margin: 50px 130px;
+    margin-top: 40px;
+    height:600px;
+    border-radius: 10px;
+    background: linear-gradient(to right, rgba(0,0,0,0.9), rgba(0,0,0,0)),
+    url(../images/Vectorrr.png);
+    background-repeat: no-repeat;
+}
+.welcome-container{
+    display: flex;
+    gap: 30px;
+   padding: 100px;
+}
+
+
+.welcome-contant-title{
+    font-size: 64px;
+    font-weight: 900;
+    color: white;
+    
+}
+.welcome-contant-description{
+    font-size: 18px;
+    color: white;
+   
+}
+.welcome-btn{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background: none;
+    border: none;
+
+}
+.welcome-btn:hover{
+    color: #FF0000;
+    cursor: pointer;
+}
+
+
+/* tour.......................................... */
+
+.tour{
+    margin: 50px 130px;
+   background:linear-gradient( to bottom, #e3bdbdfc, white);
+    text-align: center;
+    border-radius: 16px;
+    border: none;
+   margin-top: 50px;
+    padding: 50px 0 ;
+}
+.tour p{
+    font-size: 32px;
+    font-weight: 600;
+    color: black;
+}
+.tour span{
+    color: #FF0000;
+}
+
+.btn{
+    background-color: #FF0000;
+    border-radius: 8px;
+    border: none;
+    padding: 16px 32px;
+}
+/* comming soon......................... */
+.card-container{
+    margin: 50px 130px;
+    display: flex;
+    margin-top: 30px;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+.card-title{
+    font-size: 24px;
+    font-weight: 500;
+    color: #FF0000;
+}
+.card-subtitle{
+    font-size: 48px;
+    font-weight: 900;
+    
+}
+.card-description,.card-description2{
+    font-size: 20px;
+    color: #727272;
+    width: 350px;
+}
+.card-2 img{
+    border: 10px solid #FF0000;
+    border-radius: 50%;
+    padding: 15px;
+    width: 350px;
+}
+.card-title2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #FF0000;
+}
+.card h4{
+    line-height:0 ;
+}
+
+/* holiday off.............................. */
+
+.holiday-container{
+    margin: 50px 130px;
+    text-align: center;
+}
+.holiday-container h5{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 0;
+}
+.holiday-container h4{
+    font-size:77px ;
+    font-weight:900 ;
+    line-height: 0px;
+}
+.holiday-container span{
+    color: #FF0000;
+}
+.holiday-container p{
+    font-size: 20px;
+    font-style: 500;
+    color: #727272;
+}
+.bg-img{
+    background-image: url(../images/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position: bottom,right center;
+}
+.discount-img{
+   padding-bottom:300px ;
+}
+
+/* portfolio,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+.portfolio-container{
+    margin: 50px 130px;
+}
+.portfolio-img img{
+    width: 355px;
+    margin-right: 20px;
+    margin-bottom:20px ;
+}
+.portfolio h5{
+     font-size: 24px;
+    font-weight: 500;
+    color: #FF0000;
+    line-height: 0;
+}
+.portfolio h4{
+    font-size:48px ;
+    font-weight:900 ;
+    line-height: 0px;
+}
+.portfolio p{
+     font-size: 20px;
+    font-style: 500;
+    color: #727272;
+}
+
+
+/* subcribe-container...................... */
+.subcribe-container{
+    margin: 50px 130px;
+    padding: 80px 212px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: #f0dfdffc;
+}
+.subcribe-container-title{
+    font-size: 48px;
+    font-weight: 900;
+}
+.sub-describetion{
+    font-size: 20px;
+    color: #988fad;
+}
+
+
+/* subcribe form......................... */
+
+form{
+    display: flex;
+    width: fit-content;
+   margin: 0 auto;
+}
+
+form input{
+    border: 0;
+    outline: none;
+    padding: 10px 20px;
+    height: 60px;width: 400px;
+    font-size: 20px;
+    border-radius: 50px 0 0 50px;
+}
+
+form button{
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+    width: 200px;
+    border: none;
+    outline: none;
+    background-color: #FF0000;
+    border-radius: 0 50px 50px 0 ;
+}
+
+/* footer....................................... */
+footer{
+    width: 100%;
+    background-color: #070211;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+}
+.footer-contacts{
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+}
+.footer-contacts a{
+    color: white;
+    text-decoration: none;
+}
+.fotter-icons a {
+    margin-left: 24px;
+}
+.fotter-icons{
+    text-align: center;
+
+}
+
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+}

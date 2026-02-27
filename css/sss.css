@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.banner {
+    height: 100vh;
+    background: url(../images/Vectorrr.png) no-repeat center center/cover;
+    position: relative;
+}
+
+/* Dark overlay */
+.overlay {
+    height: 100%;
+    width: 100%;
+    background: left, rgba(0, 0, 0, 0.8); /* darkness control */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.content h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.content button {
+    padding: 12px 25px;
+    border: none;
+    background: #ffd700;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
